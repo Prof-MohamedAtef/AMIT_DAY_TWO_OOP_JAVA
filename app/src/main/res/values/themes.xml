@@ -13,4 +13,30 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="regularText">
+        <item name="android:textSize">12sp</item>
+        <item name="color">#2E2A2A</item>
+    </style>
+
+    <style name="regularSmallBoldText">
+        <item name="android:textSize">12sp</item>
+        <item name="color">#2E2A2A</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="regularMeduimBoldText">
+        <item name="android:textSize">@dimen/_16ssp</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="regularMeduimText">
+        <item name="android:textSize">@dimen/_14ssp</item>
+
+
+    </style>
+
+    <dimen name="_16ssp">16</dimen>
+    <dimen name="_14ssp">14</dimen>
 </resources>

@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import mo.atef.amit.daytwo.javabasics.engines.Electricity;
 import mo.atef.amit.daytwo.javabasics.homes.NewHome;
@@ -70,7 +73,11 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("amh","value: ");
 
-
+        TextView tvHello =(TextView) findViewById(R.id.tvHello);
+        tvHello.setText("Hi, It's my first App!");
+        tvHello.setTextColor(getResources().getColor(R.color.red));
+        tvHello.setAllCaps(true);
+        tvHello.setTextSize(20);
     }
 
 
